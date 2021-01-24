@@ -25,9 +25,14 @@ const Main = () => {
             <header>
                 <img src={hero} />
                 <div>
-                    <h1>We build &amp; design <br/> web applications.</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus congue dignissim. Vestibulum et ex nisl. Vestibulum eu luctus nisi. Fusce sit amet vehicula nisl. </p>
-                    <Link to="/contact">Get in touch</Link>
+                    <h1>Brand professionally<br/> &amp; connect with <br/>confidence.</h1>
+                    <p>Are you a young professional wanting to land job offers with competitive companies? 
+                    Interested in continous career growth? Looking for work you find interesting and meaningful?</p>
+                
+                    <p>Introducing, Career Lab, a software solution crafted to simplify the job hunt and career planning process.</p>
+                    
+                    <p>Job hunting is no longer a solo endeavor.</p>
+                    <Link to="/contact">Sign Up Now</Link>
                 </div>
           
             </header>
