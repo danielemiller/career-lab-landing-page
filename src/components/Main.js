@@ -40,15 +40,38 @@ const Main = () => {
 
             <main>
                 <section className="services">
-                     <h2>Why we should work together?</h2>
+                     <h2>Land job offers and grow your salary with Career Lab...</h2>
 
                      <div className="service-container">
                          <div className="services-card service-one"></div>
                          <div className="service-description">
 
-                            <h3>SEO Friendly Apps.</h3>
-                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt massa sem. Vestibulum quis augue ac orci bibendum pellentesque ut nec dolor. Quisque metus ipsum, pulvinar quis ipsum quis, consequat cursus leo. Suspendisse fermentum, nisl et ultricies blandit, mauris metus accumsan mauris, sit amet vulputate elit nunc id libero. Vivamus porta lacus libero, et ullamcorper est volutpat ac. Maecenas eros urna, interdum in lectus nec, tristique semper mauris. Duis finibus nunc sed nulla bibendum, ut ornare tellus finibus. Donec id magna risus.</div>
-
+                            <h3>Customized templating of career documents</h3>
+                            <div>
+                            We get it. Even just imagining the long, tedious application process standing between
+                            you and your dream job can be exhausting. Fear no more. Career Lab constructs customized,
+                            flexible templates of essential career documents for quickly generating powerful, targeted
+                            professional documents. Less time, more interviews.
+                          </div>
+                          <br/>
+                            <div>
+                            While getting picked may seem to be based
+                            on random factors, Career Lab's machine learning algorithm is designed to get inside
+                            the employer's head to understand what turns them on, what turns them off, and what you
+                            can do about it. 
+                          </div>
+                          <br/>
+                          <div>
+                          Equipped with data-driven insights, Career Lab uses a one-time, guided, interactive process
+                          to collect your personal career information, generate a customized, formatted master document
+                          for each essential career document, and organize each document into components that can be
+                          easily added, edited, updated, and deleted.  
+                          </div>
+                          <br/>
+                          <div>
+                          Use the components from one or more master documents to quickly craft 
+                          targeted, professional documents for different companies and positions in your job hunt.     
+                          </div>
                          </div>
                     </div>
 
@@ -58,8 +81,18 @@ const Main = () => {
                       
                       <div className="services-card service-two"></div>
                       <div className="service-description">
-                          <h3>Clear &amp; Optimized Code.</h3>
-                          <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt massa sem. Vestibulum quis augue ac orci bibendum pellentesque ut nec dolor. Quisque metus ipsum, pulvinar quis ipsum quis, consequat cursus leo. Suspendisse fermentum, nisl et ultricies blandit, mauris metus accumsan mauris, sit amet vulputate elit nunc id libero. Vivamus porta lacus libero, et ullamcorper est volutpat ac. Maecenas eros urna, interdum in lectus nec, tristique semper mauris. Duis finibus nunc sed nulla bibendum, ut ornare tellus finibus. Donec id magna risus.</div>
+                          <h3>Multiple versions of career documents</h3>
+                          <div>
+                            Construct customized, flexible templates of essential career documents for quickly 
+                            generating powerful, targeted professional documents
+                          </div>
+                          <div>
+                             Using a one-time, guided, interactive process, Career Lab collects your personal 
+                            career information, generates a formatted master document for each essential career 
+                            document, and organizes each document into components that can be easily added, edited,
+                            updated, and deleted.
+                          </div>
+                          <div></div>
                       </div>
                     </div>
 
@@ -68,15 +101,25 @@ const Main = () => {
                     <div className="service-container">
                         <div className="services-card service-three"></div>
                         <div className="service-description">
-                            <h3>Support 24 hours.</h3>
-                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt massa sem. Vestibulum quis augue ac orci bibendum pellentesque ut nec dolor. Quisque metus ipsum, pulvinar quis ipsum quis, consequat cursus leo. Suspendisse fermentum, nisl et ultricies blandit, mauris metus accumsan mauris, sit amet vulputate elit nunc id libero. Vivamus porta lacus libero, et ullamcorper est volutpat ac. Maecenas eros urna, interdum in lectus nec, tristique semper mauris. Duis finibus nunc sed nulla bibendum, ut ornare tellus finibus. Donec id magna risus.</div>
+                            <h3>Real-time labor market data and analytics</h3>
+                            <div></div>
+                        </div>
+                      
+                    </div>
+
+                    
+                    <div className="service-container">
+                        <div className="services-card service-three"></div>
+                        <div className="service-description">
+                            <h3>Progress tracking of career growth metrics </h3>
+                            <div></div>
                         </div>
                       
                     </div>
                 </section>
 
                 <section>
-                    <h2>Join our newsletter to get the latest trends.</h2>
+                    <h2>Join our newsletter to get the latest updates.</h2>
 
                     <form className="newsletter" onSubmit={join}>
                         <input type="email" placeholder="Your email goes here" onChange={(e) => setJoined(e.target.value)} />
