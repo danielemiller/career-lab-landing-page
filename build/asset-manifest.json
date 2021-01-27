@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/career-lab-landing-page/static/css/main.7b8272d8.chunk.css",
+    "main.js": "/career-lab-landing-page/static/js/main.40565aeb.chunk.js",
+    "main.js.map": "/career-lab-landing-page/static/js/main.40565aeb.chunk.js.map",
+    "runtime-main.js": "/career-lab-landing-page/static/js/runtime-main.e6793ce6.js",
+    "runtime-main.js.map": "/career-lab-landing-page/static/js/runtime-main.e6793ce6.js.map",
+    "static/js/2.f5403096.chunk.js": "/career-lab-landing-page/static/js/2.f5403096.chunk.js",
+    "static/js/2.f5403096.chunk.js.map": "/career-lab-landing-page/static/js/2.f5403096.chunk.js.map",
+    "index.html": "/career-lab-landing-page/index.html",
+    "precache-manifest.c90678e5a1242bec0736bc442a85a80a.js": "/career-lab-landing-page/precache-manifest.c90678e5a1242bec0736bc442a85a80a.js",
+    "service-worker.js": "/career-lab-landing-page/service-worker.js",
+    "static/css/main.7b8272d8.chunk.css.map": "/career-lab-landing-page/static/css/main.7b8272d8.chunk.css.map",
+    "static/js/2.f5403096.chunk.js.LICENSE.txt": "/career-lab-landing-page/static/js/2.f5403096.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/career-lab-landing-page/static/media/Group 3.1a20727f.svg",
+    "static/media/hero.svg": "/career-lab-landing-page/static/media/hero.2a3043cf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6793ce6.js",
+    "static/js/2.f5403096.chunk.js",
+    "static/css/main.7b8272d8.chunk.css",
+    "static/js/main.40565aeb.chunk.js"
+  ]
+}
