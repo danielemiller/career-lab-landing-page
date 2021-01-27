@@ -12,14 +12,13 @@ const Main = () => {
         e.preventDefault();
         if(joined !== ""){
             let today = new Date();
-            let date = today.getFullYear()+ '-' +(today.getMonth()+1) + '-' + today.getDate();
+            let date = (today.getMonth()+1) + '-' +today.getDate() + '-' + today.getFullYear();
             history.push(`/thanks/${joined}`, date );
         }
 
     }
 
-
-
+    
     return(
         <React.Fragment>
             <header>
@@ -32,7 +31,7 @@ const Main = () => {
                     <p>Introducing, Career Lab, a software solution crafted to simplify the job search and career planning process.</p>
                     
                     <p>Job hunting is no longer a solo endeavor.</p>
-                    <Link to="/contact">Sign Up Now</Link>
+                    <a href="#join">Sign Up Now</a>
                 </div>
           
             </header>
@@ -160,8 +159,8 @@ const Main = () => {
                     professionals.    
                     </p>
 
-                    <form className="newsletter" onSubmit={join}>
-                        <input type="email" placeholder="Your email goes here" onChange={(e) => setJoined(e.target.value)} />
+                    <form id="join" className="newsletter" onSubmit={join}>
+                        <input type="email" placeholder="Your email goes here" onChange={(e) => setJoined(e.target.value)} required/>
                         <input type="submit"  value="Join Now!"/>
                     </form>
 

@@ -1,21 +1,21 @@
 import React, {useState} from "react";
 import { useParams, useHistory } from "react-router-dom";
 
-const Thanks = () => {
+const ThanksContact = () => {
 
     const history = useHistory();
-    const { name } = useParams();
+    const { email } = useParams();
 
     console.log(history);
+
 
     return(
         <React.Fragment>
            <div className="thanks">
-             <p>Thanks <strong>{name}!!</strong></p>
-             <p>You joined <strong>{history.location.state}</strong></p>
+             <p>Thanks for your submission <strong>{email}!</strong></p>
            
             <hr/>
-            <p>We will send you a confirmation email shortly with information on how to stay connected.</p>
+            <p>We look forward to hearing from you and will be in touch shortly.</p>
            
            </div>
         </React.Fragment>
@@ -24,4 +24,4 @@ const Thanks = () => {
 }
 
 
-export default Thanks;
+export default ThanksContact;

@@ -22,24 +22,27 @@ const Contact = () => {
         }
 
         console.log("sending email", email);
+        if(contactEmail !== ""){
+          history.push(`/email/${contactEmail}`);
+        }
+        
     }
-
 
     return(
         <React.Fragment>
            <button className="back" onClick={goBack}> &larr; Go Back</button>
 
             <form className="contact" onSubmit={sendEmail}>
-                <h2>Send me a message so we can start a new project</h2>
+                <h2 style={{textAlign: 'center'}}>Send us a message if you are interested in getting involved in any of our projects!</h2>
                 
                 <label htmlFor="title">Message Title: </label>
-                <input type="text" name="title" onChange={(e) => setTitle(e.target.value)} />
+                <input type="text" name="title" onChange={(e) => setTitle(e.target.value)} required/>
                 
                 <label htmlFor="content">Message Content: </label>
-                <textarea name="content"  onChange={(e) => setContent(e.target.value)}  ></textarea>
+                <textarea name="content"  onChange={(e) => setContent(e.target.value)}  required></textarea>
             
                 <label htmlFor="email">Contact Email: </label>
-                <input type="email" name="email" onChange={(e) => setContactEmail(e.target.value)} />
+                <input type="email" name="email" onChange={(e) => setContactEmail(e.target.value)} required/>
 
                 <input type="submit" value="Send Message" />
             </form>
