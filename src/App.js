@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Routes from "./routes";
+import logo from "./SCL_Logo.png";
 import { Link, useHistory } from "react-router-dom";
  
 function App() {
@@ -30,7 +31,7 @@ function App() {
   const showContact = path;
   let _contact;
   if(showContact !== "/contact"){
-    _contact = (<li><Link to="/contact">Contact Me</Link></li>)
+    _contact = (<li><Link to="/contact">Get in Contact</Link></li>)
   }
 
 
@@ -38,10 +39,11 @@ function App() {
     <div className="App">
      <div className="container">
         <nav>
-          <ul>
-            <li><Link to="/"> StudentCareerLab </Link></li>
+         
+          <ul className="left_nav">
+          <Link to="/"> <img src={logo} width="100" height="100"/></Link>
           </ul>
-          <ul>
+          <ul className="right_nav">
             {_contact}
           </ul>
         </nav>
