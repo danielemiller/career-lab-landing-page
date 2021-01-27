@@ -294,7 +294,7 @@ h3 {
 @media screen and (max-width: 1150px){
   header img {
     width: 900px;
-    right: -50%;
+    right: -35%;
     top: 320px;
   }
  
@@ -336,7 +336,7 @@ h3 {
   header img {
     width: 730px;
     right: -50%;
-    top: 800px;
+    top: 520px;
   }
 
   .newsletter {
@@ -363,4 +363,12 @@ h3 {
     margin: 40px 0px;
   }
   
+}
+
+@media screen and (max-width: 540px) {
+  header img {
+    width: 500px;
+    right: -35%;
+    top: 930px;
+  }
 }
