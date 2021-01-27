@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { useParams, useHistory } from "react-router-dom";
 
-const Thanks = () => {
+const ThanksJoin = () => {
 
     const history = useHistory();
     const { name } = useParams();
@@ -24,4 +24,4 @@ const Thanks = () => {
 }
 
 
-export default Thanks;
+export default ThanksJoin;

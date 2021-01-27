@@ -39,7 +39,7 @@ const Contact = () => {
                 <input type="text" name="title" onChange={(e) => setTitle(e.target.value)} required/>
                 
                 <label htmlFor="content">Message Content: </label>
-                <textarea name="content"  onChange={(e) => setContent(e.target.value)}  required></textarea>
+                <textarea name="content"  onChange={(e) => setContent(e.target.value)} required></textarea>
             
                 <label htmlFor="email">Contact Email: </label>
                 <input type="email" name="email" onChange={(e) => setContactEmail(e.target.value)} required/>
