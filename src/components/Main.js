@@ -24,7 +24,7 @@ const Main = () => {
             <header>
                 <img src={hero} />
                 <div>
-                    <h1>Brand professionally<br/> &amp; connect with <br/>confidence.</h1>
+                    <h1>Grow professionally<br/> &amp; connect with <br/>confidence.</h1>
                     <p>Are you a young professional wanting to land job offers with competitive companies? 
                     Interested in continous career growth? Looking for work you find interesting and meaningful?</p>
                 
